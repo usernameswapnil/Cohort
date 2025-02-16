@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function hello(){
+        const a=document.getElementById("firstnumber").value;
+        const b=document.getElementById("secondnumber").value;
+        const element=document.getElementById("finalSum");
+        element.innerHTML=parseInt(a)+parseInt(b);
+        //parseInt---> converts string to int
+    }
+</script>
+<body>
+    <input id="firstnumber" placeholder="First Number"></input> <br></br>
+    <input id="secondnumber" placeholder="Second Number"></input> <br></br>
+    <button onclick="hello()">Calculate Sum</button>
+    <div id="finalSum"></div>
+</body>
+</html>
+
+//document.querySelector() -----> read about this
