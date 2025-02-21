@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter Button</title>
+</head>
+<body>
+  <div id="buttonparent"></div>
+  <script>
+    let state = { count: 0 };
+
+    function onButtonClick() {
+      state.count++;
+      buttonComponentReRender();
+    }
+
+    function buttonComponentReRender() {
+      document.getElementById("buttonparent").innerHTML = "";
+      const component = buttonComponent(state.count);
+      document.getElementById("buttonparent").appendChild(component);
+    }
+
+    function buttonComponent(count) {
+      const button = document.createElement("button");
+      button.innerHTML = `Counter ${count}`;
+      button.onclick = onButtonClick;
+      return button;
+    }
+
+    // Initial Render
+    buttonComponentReRender();
+  </script>
+</body>
+</html>
