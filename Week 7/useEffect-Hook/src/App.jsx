@@ -5,7 +5,7 @@ function App(){
   //first -> side effect function
   //second -> clean up function
   //third -> comma seperated by list
-
+  // useEffect allows you to perform side effets in function components.
   //Variation-1: Runs on every render
   /*useEffect(function(){
     alert("I will run in each render")
