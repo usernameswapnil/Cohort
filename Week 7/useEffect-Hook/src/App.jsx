@@ -6,6 +6,7 @@ function App(){
   //second -> clean up function
   //third -> comma seperated by list
   // useEffect allows you to perform side effets in function components.
+  //side effects are operations that can affect other components or can't be done during rendering, such as data fetching , subscriptions and changing the DOM in React components
   //Variation-1: Runs on every render
   /*useEffect(function(){
     alert("I will run in each render")
