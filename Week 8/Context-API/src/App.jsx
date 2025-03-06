@@ -1,4 +1,4 @@
-//to solve the problem of prop drilling we are using context API
+//to solve the problem of prop drilling and to make the syntax cleaner we are using context API (Interview question)
 import { useState, useContext  } from "react"
 import {CountContext} from "./context";
 function App() {
