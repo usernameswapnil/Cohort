@@ -3,7 +3,7 @@ const value={
     name:"Swapnil",
     accountnumber:"12345",
 }
-const token=jwt.sign(value,"secret");
+const token=jwt.sign(value,"secret"); //jwt.sign => This is a function from the jsonwebtoken (jwt) library that creates a JWT token.
 console.log(token);
 
 //a person goes to the bank gives his name and accountnumber to the bank, in return the bank gives a checkbook. The next time the person comes this checkbook is used for verification of the person 
