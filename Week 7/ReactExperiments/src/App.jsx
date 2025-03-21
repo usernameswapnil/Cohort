@@ -16,7 +16,7 @@ function HeaderWithButton(){
   function updateTitle(){
     
       setTitle("My name is:" + Math.random())
-      // IMP--> Mistake: You're returning JSX inside updateTitle, but "setTitle should be called directly" (not inside a JSX return (i.e inside return(<div></div)))
+      // IMPORTANT --> Mistake: You're returning JSX inside updateTitle, but "setTitle should be called directly" (not inside a JSX return (i.e inside return(<div></div)))
       //Fix: setTitle should be executed as a function, not inside a JSX return.
       
   }
