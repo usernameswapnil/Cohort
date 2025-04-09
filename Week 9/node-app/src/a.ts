@@ -69,8 +69,18 @@
 //difference between interfaces and types:
 //1.) Syntax difference
 //2.) types cannnot be used to implement classes whereas interfaces can be used.
+
 // type User={
 //     firstName:string,
 //     lastname:string,
 //     age:number
 // }
+
+// //Unions:
+// //u cannot do this with interfaces
+// type GreetArg= number | string;
+// function greet (id:GreetArg){
+//     return id;
+// }
+// //console.log(greet(1));
+// console.log(greet("swapnil"));
