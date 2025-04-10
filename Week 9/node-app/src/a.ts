@@ -84,3 +84,22 @@
 // }
 // //console.log(greet(1));
 // console.log(greet("swapnil"));
+
+
+//Intersections:
+// type Employee={
+//     name:string;
+//     startDate:Date;
+// };
+// interface Manager{
+//     name:string;
+//     department:string;
+// }
+// type TeamLead=Employee & Manager; //this should compulsory be type (inteview ques)
+
+// const t:TeamLead={
+//     name:"swapnil",
+//     startDate:new Date(),
+//     department:"developer",   
+// }
+// console.log(t); 
