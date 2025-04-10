@@ -103,3 +103,23 @@
 //     department:"developer",   
 // }
 // console.log(t); 
+
+// //Enums:
+// enum Direction{
+//     Up,
+//     Down,
+//     Left,
+//     Right
+// }
+// function doSomething(keyPressed:Direction){
+//     if(keyPressed==Direction.Up){
+//         console.log("go up");
+//     }
+//     else if(keyPressed==Direction.Down){
+//         console.log("go down");
+//     }
+//     else{
+//         console.log("go left or right");
+//     }
+// }
+// console.log(doSomething(Direction.Left));
