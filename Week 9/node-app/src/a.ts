@@ -123,3 +123,5 @@
 //     }
 // }
 // console.log(doSomething(Direction.Left));
+// console.log(Direction.Up);
+// console.log(Direction.Down);
