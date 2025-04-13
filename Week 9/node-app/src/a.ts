@@ -125,3 +125,12 @@
 // console.log(doSomething(Direction.Left));
 // console.log(Direction.Up);
 // console.log(Direction.Down);
+
+// //Generics:
+// //Problem with Generics -->
+// type Input=number | string;
+// function firstEl(arr:Input[]){
+//     return arr[0];
+// }
+// const value=firstEl(["swapnil", "singh"]);
+// console.log(value.toUppperCase()); //ideally in js it should not give any error but since Input is number or string and toUppperCase() gives error on numbers as it is only valid for strings. 
