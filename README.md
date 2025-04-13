@@ -1,5 +1,5 @@
 # Cohort 2.0 Syllabus
-#Complete 0-1 Syllabus
+#Complete 0-1 Syllabus,
 #Foundation
 1. Foundation Javascript, async nature of JS
 2. Node.js and its runtime=
@@ -60,11 +60,11 @@
 18. Real time communication, basics of WebRTC
 
 #Advanced Devops
-1 Container Orchestration, Docker Swarm
-2 Kubernetes
-3 CI/CD
-4 Monitoring systems basics to advance
-5 Promhetheus, Grafana
-6 Newrelic as a paid service
-7 Serverless Deep dive
-8 AWS Constructs (EC2, S3, CDNs, LB, EKS)
+1. Container Orchestration, Docker Swarm
+2. Kubernetes
+3. CI/CD
+4. Monitoring systems basics to advance
+5. Promhetheus, Grafana
+6. Newrelic as a paid service
+7. Serverless Deep dive
+8. AWS Constructs (EC2, S3, CDNs, LB, EKS)
