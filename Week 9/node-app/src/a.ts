@@ -134,3 +134,12 @@
 // }
 // const value=firstEl(["swapnil", "singh"]);
 // console.log(value.toUppperCase()); //ideally in js it should not give any error but since Input is number or string and toUppperCase() gives error on numbers as it is only valid for strings. 
+
+//Solution:Generics
+// function identity<T>(arg:T){
+//     return arg;
+// }
+// let output1=identity<string>("swapnil");
+// let output2=identity<number>(100);
+// console.log(output1);
+// console.log(output2);
